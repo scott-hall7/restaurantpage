@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../src/RobotoCondensed-Regular.ttf') format('ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html   {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px;
+}
+
+header  {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+header p    {
+    font-size: 30px;
+}
+
+
+main    {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+button  {
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer  {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 20px;
+}
+
+.home   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.contact  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.contact img  {
+   
+}
+
