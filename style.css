@@ -5,9 +5,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-html   {
+body   {
     font-family: 'Roboto Mono', monospace;
     padding: 0px;
+    margin: 0px;
 }
 
 header  {
@@ -25,6 +26,7 @@ main    {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    padding-top: 30px;
 }
 
 button  {
@@ -33,9 +35,18 @@ button  {
 
 footer  {
     display: flex;
-    align-items: center;
-    justify-content:space-evenly;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc700;
+    color: rgb(214, 91, 42);
+}
+
+footer p    {
+    
 }
 
 .home   {
