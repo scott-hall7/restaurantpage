@@ -64,7 +64,7 @@ function waffle() {
     waffleTitle.textContent = "Waffle";
 
     const waffleDescription = document.createElement("p");
-    waffleDescription.textContent = "Our waffles are also really hard, we struggle to cook soft things";
+    waffleDescription.textContent = "Our waffles are also really hard, we struggle to cook soft things.";
 
     const waffleImage = document.createElement("img");
     waffleImage.src = "images/waffle.jpeg";

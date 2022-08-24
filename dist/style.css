@@ -59,25 +59,49 @@ footer  {
     color: rgb(214, 91, 42);
 }
 
-footer p    {
-
-}
 
 .home   {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 50%;
+}
+
+.home p {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.home img   {
+    width: 90%;
+    box-shadow: 3px 3px 6px rgb(104, 103, 103);
+}
+
+.menu   {
+    width: 75%;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.menu h3    {
+    display: flex;
+    justify-content: center;
 }
 
 .contact  {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    align-items: center;
+    width: 50%;
 }
 
+
 .contact img  {
+   width: 75%;
+   margin-top: 5px;
+   box-shadow: 5px 5px 10px rgb(104, 103, 103);
    
 }
 
