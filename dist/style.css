@@ -1,119 +1,132 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('../src/RobotoCondensed-Regular.ttf') format('ttf');
+  font-family: "Roboto";
+  src: url("../src/RobotoCondensed-Regular.ttf") format("ttf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-body   {
-    font-family: 'Roboto Mono', monospace;
-    padding: 0px;
-    margin: 0px;
+body {
+  font-family: "Roboto Mono", monospace;
+  padding: 0px;
+  margin: 0px;
 }
 
-header  {
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-header p    {
-    font-size: 30px;
+header p {
+  font-size: 30px;
 }
 
-nav button  {
-        background: none;
-        color: inherit;
-        border: none;
-        padding: 0;
-        cursor: pointer;
-        outline: inherit;
-        padding: 15px;
-        font-size: 20px;
+nav button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  padding: 15px;
+  font-size: 20px;
 }
 
-nav button:hover    {
-    text-decoration: underline;
+nav button:hover {
+  text-decoration: underline;
 }
 
-main    {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    padding-top: 30px;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
 }
 
-button  {
-    font-family: 'Roboto Mono', monospace;
+button {
+  font-family: "Roboto Mono", monospace;
 }
 
-footer  {
-    display: flex;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffc700;
-    color: rgb(214, 91, 42);
+footer {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc700;
+  color: rgb(214, 91, 42);
 }
 
-
-.home   {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
 }
 
 .home p {
-    width: 75%;
+  width: 75%;
 }
 
-.home img   {
-    width: 90%;
-    margin-top: 20px;
-    box-shadow: 3px 3px 6px rgb(104, 103, 103);
+.home img {
+  width: 90%;
+  margin-top: 20px;
+  box-shadow: 3px 3px 6px rgb(104, 103, 103);
 }
 
-.menu   {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 75%;
-    background-color: antiquewhite;
-    padding: 30px;
-    margin-bottom: 100px;
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-bottom: 100px;
+  padding: 30px;
 }
 
-.menu h3    {
-    display: flex; 
-    justify-content: center;
+.menu h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
-.menuItem   {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.menuItem {
+  display: flex;
+  flex-direction: column;
 }
 
-.menu img   {
-    display: flex;
-    justify-content: center;
+.menuItem h4 {
+  padding: 0px;
+  margin: 0px;
 }
 
-.contact  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+.menuItem p {
+  margin: 0px 0px 20px 0px;
 }
 
-.contact img  {
-   width: 75%;
-   margin-top: 5px;
-   box-shadow: 5px 5px 10px rgb(104, 103, 103);
+.menu img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 60px;
 }
 
+.eggText {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.contact img {
+  width: 75%;
+  margin-top: 5px;
+  box-shadow: 5px 5px 10px rgb(104, 103, 103);
+}
