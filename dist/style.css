@@ -52,11 +52,20 @@ footer {
   bottom: 0;
   width: 100%;
   position: fixed;
-  font-size: 20px;
   justify-content: center;
   align-items: center;
   background-color: #ffc700;
+}
+
+footer a {
+  padding: 20px;
+  text-decoration: none;
   color: rgb(214, 91, 42);
+  font-size: 20px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .home {

@@ -72,8 +72,10 @@ function createMain() {
 function createFooter() {
   const footer = document.createElement("footer");
 
-  const headChef = document.createElement("p");
-  headChef.textContent = "Head Chef: scott-hall7 on GitHub";
+  const headChef = document.createElement('a');
+  const headChefText = document.createTextNode("Head Chef: scott-hall7 on GitHub")
+  headChef.appendChild(headChefText);
+  headChef.title = "Head Chef: scott-hall7 on GitHub";
   headChef.href = "https://github.com/scott-hall7";
 
   footer.appendChild(headChef);
