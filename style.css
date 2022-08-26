@@ -39,7 +39,7 @@ nav button:hover    {
 main    {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:center;
     padding-top: 30px;
 }
 
@@ -63,17 +63,17 @@ footer  {
 .home   {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 50%;
 }
 
 .home p {
     width: 75%;
-    margin-bottom: 20px;
 }
 
 .home img   {
     width: 90%;
+    margin-top: 20px;
     box-shadow: 3px 3px 6px rgb(104, 103, 103);
 }
 
@@ -96,7 +96,6 @@ footer  {
     align-items: center;
     width: 50%;
 }
-
 
 .contact img  {
    width: 75%;
